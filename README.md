@@ -34,11 +34,17 @@ GitHub Actions
 
 # Project Structure🏗️
 apis        → API request handling
+
 base        → request specs & environment config
+
 models      → request/response POJOs
+
 steps       → reusable test flows & data generation
+
 data        → routes & error messages
+
 testcases   → TestNG tests
+
 
 # Run Tests⚙️
 
