@@ -1,8 +1,8 @@
-#🚀 RestMaster-API
+ # **RestMaster-API** 
 
 A simple layered API Test Automation Framework built using Java, TestNG, Rest Assured, and Maven.
 
-##📌 Overview
+# Overview📌
 
 This project is a modular API automation framework that separates:
 
@@ -16,7 +16,7 @@ execution
 
 It supports authentication, environment configuration, parallel execution, and CI testing using GitHub Actions.
 
-##🧰 Tech Stack
+# Tech Stack🧰
 
 Java
 
@@ -32,7 +32,7 @@ Java Faker
 
 GitHub Actions
 
-##🏗️ Project Structure
+# Project Structure🏗️
 apis        → API request handling
 base        → request specs & environment config
 models      → request/response POJOs
@@ -40,7 +40,7 @@ steps       → reusable test flows & data generation
 data        → routes & error messages
 testcases   → TestNG tests
 
-##⚙️ Run Tests
+# Run Tests⚙️
 
 Run all tests:
 
@@ -51,7 +51,7 @@ Run on local environment:
 
 mvn clean test -Denv=LOCAL
 
-##🔐 Authentication
+# Authentication🔐
 
 Token generated dynamically during tests
 
@@ -59,7 +59,7 @@ No global token storage
 
 Independent test execution
 
-##🧪 Features
+# Features🧪
 
 Layered architecture
 
@@ -73,11 +73,11 @@ Console logging
 
 CI execution on push
 
-##🔄 CI/CD
+# CI/CD🔄
 
 Tests run automatically using GitHub Actions when code is pushed.
 
-##📈 Future Improvements
+## Future Improvements📈
 
 Retry mechanism
 
@@ -87,6 +87,6 @@ Advanced reporting
 
 Log files
 
-##👤 Author
+## Author👤
 
-#Omar Kandeel
+Omar Kandeel
